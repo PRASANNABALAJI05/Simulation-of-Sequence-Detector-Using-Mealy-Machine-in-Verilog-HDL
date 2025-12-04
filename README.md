@@ -28,7 +28,7 @@ For example, a **sequence detector** that detects `"1011"`:
 <img width="363" height="550" alt="image" src="https://github.com/user-attachments/assets/7861102e-c301-422a-bfa8-d8d887a8652b" />
 
 ## Verilog Code
-```
+```verilog
 module mealysequencedet(clk,reset,in,out);
     input clk;
     input reset;
@@ -96,7 +96,7 @@ endmodule
 
 ```
 ## Testbench
-```
+```verilog
 module tb_mealysequencedet;
 
     reg clk, reset, in;
